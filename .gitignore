@@ -1,0 +1,52 @@
+# Data files — never commit large data
+*.csv
+*.tsv
+*.h5
+*.h5ad
+*.loom
+*.parquet
+*.feather
+data/
+raw_data/
+
+# Model files
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+models/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.env
+.venv
+env/
+venv/
+
+# Output figures (optional — comment out if you want to commit figures)
+# *.png
+# *.pdf
+# figures/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# HuggingFace cache
+~/.cache/huggingface/
