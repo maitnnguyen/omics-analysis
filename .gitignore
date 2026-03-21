@@ -35,9 +35,9 @@ env/
 venv/
 
 # Output figures (optional — comment out if you want to commit figures)
-# *.png
-# *.pdf
-# figures/
+ *.png
+ *.pdf
+ figures/
 
 # OS
 .DS_Store
