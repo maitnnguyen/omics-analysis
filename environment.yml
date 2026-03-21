@@ -1,0 +1,24 @@
+name: omics-analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - datasets
+    - huggingface_hub
+    - scikit-learn
+    - xgboost
+    - lightgbm
+    - shap
+    - matplotlib
+    - seaborn
+    - pandas
+    - numpy
+    - torch
+    - torchvision
+    - timm
+    - albumentations
+    - jupyter
+    - ipykernel
